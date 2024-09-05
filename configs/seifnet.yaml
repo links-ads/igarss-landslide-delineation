@@ -17,5 +17,5 @@ LR_SCHED_EXP_GAMMA: 0.99
 LOSS: ['cross_entropy','dice']
 LOSS_WEIGHTS: [0.75,0.25]
 CE_CLASS_WEIGHTS: [1,5]
-#CUSTOM_LR: {"encoder":0.000001}
-#CUSTOM_WEIGHT_DECAY: {"encoder":0.00001}
+#CUSTOM_LR: {"encoder":0.0}
+#CUSTOM_WEIGHT_DECAY: {"encoder":0.0}
