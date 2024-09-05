@@ -1,5 +1,6 @@
 # igarss-landslide-delineation
-Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" (accepted at IGARSS 2024)
+Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" [![arXiv](https://img.shields.io/badge/arXiv-2405.20161-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2405.20161) (accepted at IGARSS 2024)
+
 
 ## Get started
 To run code in this repository, you first have to install required libraries
@@ -13,7 +14,10 @@ To train a model, you can run `train.py` specifying hyperparameters as arguments
 
 To specify a pretrained backbone through the `--pretrained_encoder_weights` argument, you have to manually download the corresponding "full checkpoint" from the [SSL4EO-S12 repository](https://github.com/zhu-xlab/SSL4EO-S12?tab=readme-ov-file#pre-trained-models) first.
 
-In `configs/` you can find hyperparameters used to train the models reported in the paper.
+In `configs/` you can find hyperparameters used to train the models reported in the paper. Thus, the experiments in the paper can be run simply by:
+```bash
+python train.py --yaml="configs/model.yaml"
+```
 
 ## Checkpoints
 The models trained in the paper can be found [at this link](https://drive.google.com/drive/folders/1351hEZeY2T67aGhD-ONNyLN8Cq0cAfzX?usp=sharing).
