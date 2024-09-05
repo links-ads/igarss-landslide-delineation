@@ -1,5 +1,7 @@
 # Landslide mapping from Sentinel-2 imagery through change detection
-Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" [![arXiv](https://img.shields.io/badge/arXiv-2405.20161-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2405.20161) (accepted at IGARSS 2024)
+Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" (accepted at IGARSS 2024)
+
+[![arXiv](https://img.shields.io/badge/arXiv-2405.20161-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2405.20161)
 
 
 ## Get started
@@ -25,6 +27,7 @@ The following code is used to load a model:
 ```python
 import torch
 from argparse import Namespace
+from src.model_utils import make_model
 
 # load trained checkpoint
 ckpt_path = "path/to/model.pt"
