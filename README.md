@@ -1,5 +1,5 @@
 # Landslide mapping from Sentinel-2 imagery through change detection
-Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" (accepted at IGARSS 2024)
+Code repository for the paper "[Landslide mapping from Sentinel-2 imagery through change detection](https://arxiv.org/abs/2405.20161)" (accepted at IGARSS 2024, and presented at ESA LPS 2025)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2405.20161-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2405.20161)
 
